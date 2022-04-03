@@ -23,7 +23,13 @@ int main(void) {
 		}
 		printf("\nsoucet sudych cisel: %d", suda);
 	}
-	else {
+	else { //soucet lichych cisel
 
+		for (int i = 0; i <= hodnota; i++) {
+			if (i % 2 != 0) {
+				licha = licha + i;
+			}
+		}
+		printf("soucet lichych cisel: %d", licha);
 	}
 }
